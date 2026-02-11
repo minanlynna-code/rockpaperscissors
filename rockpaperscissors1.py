@@ -22,10 +22,11 @@ while round <= 3:
         elif(computer_choice == choice[2]):
             if(user_choice == choice[0]):
                 print("You Lost!")
-            elif(user_choice == choice[1]):
+            elif(user_choice == choice[1] ):
                 print("You win!")
     print("The computer choice is " + computer_choice)
     round += 1
+print ("Thank for play! wish you have good day!")
 
 
 
