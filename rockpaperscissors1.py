@@ -26,7 +26,7 @@ while round <= 3:
                 print("You win!")
     print("The computer choice is " + computer_choice)
     round += 1
-print ("Thank for play! wish you have good day!")
+print ("Thank for your play! Try next time!")
 
 
 
