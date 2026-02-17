@@ -1,9 +1,9 @@
 import random
 print("Welcome to The Game...")
 choice = ["rock", "scissors","paper"]
-computer_choice = random.choice(choice)
 round = 1
 while round <= 3:
+    computer_choice = random.choice(choice)
     print("rock scissors paper")
     user_choice = input("Your Choice is: ")
     if(computer_choice == user_choice):
